@@ -1,0 +1,26 @@
+#baseURL = "https://hferjani.42.fr/me"
+theme = "m10c"
+paginate = 8
+canonifyURLs = true
+
+[params]
+  textColor = "#333333"
+  linkColor = "#FF0000"
+  author = "ecole 42"
+  description = "Dedicated hugo service for inception project"
+[menu]
+  [[menu.main]]
+    identifier = "installation"
+    name = "installation"
+    url = "https://gohugo.io/installation/linux/"
+    weight = 1
+  [[menu.main]]
+    identifier = "theme"
+    name = "theme"
+    url = "https://themes.gohugo.io/"
+    weight = 2
+  [[menu.main]]
+    identifier = "Configure"
+    name = "Configure"
+    url = "https://gohugo.io/getting-started/configuration/"  # Remplacez par l'URL de votre page de contact
+    weight = 3
